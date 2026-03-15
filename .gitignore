@@ -1,0 +1,28 @@
+# Зависимости (самое важное)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Логи и временные файлы
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Папки IDE (VS Code, WebStorm)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Переменные окружения (если будешь использовать .env файлы)
+.env
+.env.local
